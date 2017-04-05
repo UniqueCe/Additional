@@ -24,6 +24,18 @@
 		E298F4451E95254000365FBC /* UILabel+LPC.m in Sources */ = {isa = PBXBuildFile; fileRef = E298F4381E95254000365FBC /* UILabel+LPC.m */; };
 		E298F4461E95254000365FBC /* UIScreen+LPC.m in Sources */ = {isa = PBXBuildFile; fileRef = E298F43A1E95254000365FBC /* UIScreen+LPC.m */; };
 		E298F4471E95254000365FBC /* UIView+LPC.m in Sources */ = {isa = PBXBuildFile; fileRef = E298F43C1E95254000365FBC /* UIView+LPC.m */; };
+		E298F4651E95269D00365FBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298F4641E95269D00365FBC /* AppDelegate.swift */; };
+		E298F46A1E95269D00365FBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E298F4681E95269D00365FBC /* Main.storyboard */; };
+		E298F46C1E95269D00365FBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E298F46B1E95269D00365FBC /* Assets.xcassets */; };
+		E298F46F1E95269D00365FBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E298F46D1E95269D00365FBC /* LaunchScreen.storyboard */; };
+		E298F47E1E95272400365FBC /* UIAlertController_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298F4771E95272400365FBC /* UIAlertController_Extension.swift */; };
+		E298F47F1E95272400365FBC /* UIBarButtonItem_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298F4781E95272400365FBC /* UIBarButtonItem_Extension.swift */; };
+		E298F4801E95272400365FBC /* UIButton_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298F4791E95272400365FBC /* UIButton_Extension.swift */; };
+		E298F4811E95272400365FBC /* UIColor_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298F47A1E95272400365FBC /* UIColor_Extension.swift */; };
+		E298F4821E95272400365FBC /* UILabel_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298F47B1E95272400365FBC /* UILabel_Extension.swift */; };
+		E298F4831E95272400365FBC /* UIScreen_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298F47C1E95272400365FBC /* UIScreen_Extension.swift */; };
+		E298F4841E95272400365FBC /* UIView_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298F47D1E95272400365FBC /* UIView_Extension.swift */; };
+		E298F4861E95289E00365FBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E298F4851E95289E00365FBC /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,10 +72,31 @@
 		E298F43A1E95254000365FBC /* UIScreen+LPC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+LPC.m"; sourceTree = "<group>"; };
 		E298F43B1E95254000365FBC /* UIView+LPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LPC.h"; sourceTree = "<group>"; };
 		E298F43C1E95254000365FBC /* UIView+LPC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LPC.m"; sourceTree = "<group>"; };
+		E298F4621E95269D00365FBC /* Additional_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Additional_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E298F4641E95269D00365FBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E298F4691E95269D00365FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E298F46B1E95269D00365FBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E298F46E1E95269D00365FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E298F4701E95269D00365FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E298F4771E95272400365FBC /* UIAlertController_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertController_Extension.swift; sourceTree = "<group>"; };
+		E298F4781E95272400365FBC /* UIBarButtonItem_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBarButtonItem_Extension.swift; sourceTree = "<group>"; };
+		E298F4791E95272400365FBC /* UIButton_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton_Extension.swift; sourceTree = "<group>"; };
+		E298F47A1E95272400365FBC /* UIColor_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor_Extension.swift; sourceTree = "<group>"; };
+		E298F47B1E95272400365FBC /* UILabel_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel_Extension.swift; sourceTree = "<group>"; };
+		E298F47C1E95272400365FBC /* UIScreen_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScreen_Extension.swift; sourceTree = "<group>"; };
+		E298F47D1E95272400365FBC /* UIView_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView_Extension.swift; sourceTree = "<group>"; };
+		E298F4851E95289E00365FBC /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E298F4081E9524A800365FBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E298F45F1E95269D00365FBC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				E298F40D1E9524A800365FBC /* Additional_ObjC */,
+				E298F4631E95269D00365FBC /* Additional_Swift */,
 				E298F40C1E9524A800365FBC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				E298F40B1E9524A800365FBC /* Additional_ObjC.app */,
+				E298F4621E95269D00365FBC /* Additional_Swift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,6 +179,34 @@
 			path = LPCAdditonal;
 			sourceTree = "<group>";
 		};
+		E298F4631E95269D00365FBC /* Additional_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				E298F4761E95272400365FBC /* LPC_SwiftAdditonal */,
+				E298F4641E95269D00365FBC /* AppDelegate.swift */,
+				E298F4851E95289E00365FBC /* ViewController.swift */,
+				E298F4681E95269D00365FBC /* Main.storyboard */,
+				E298F46B1E95269D00365FBC /* Assets.xcassets */,
+				E298F46D1E95269D00365FBC /* LaunchScreen.storyboard */,
+				E298F4701E95269D00365FBC /* Info.plist */,
+			);
+			path = Additional_Swift;
+			sourceTree = "<group>";
+		};
+		E298F4761E95272400365FBC /* LPC_SwiftAdditonal */ = {
+			isa = PBXGroup;
+			children = (
+				E298F4771E95272400365FBC /* UIAlertController_Extension.swift */,
+				E298F4781E95272400365FBC /* UIBarButtonItem_Extension.swift */,
+				E298F4791E95272400365FBC /* UIButton_Extension.swift */,
+				E298F47A1E95272400365FBC /* UIColor_Extension.swift */,
+				E298F47B1E95272400365FBC /* UILabel_Extension.swift */,
+				E298F47C1E95272400365FBC /* UIScreen_Extension.swift */,
+				E298F47D1E95272400365FBC /* UIView_Extension.swift */,
+			);
+			path = LPC_SwiftAdditonal;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,6 +227,23 @@
 			productReference = E298F40B1E9524A800365FBC /* Additional_ObjC.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E298F4611E95269D00365FBC /* Additional_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E298F4731E95269D00365FBC /* Build configuration list for PBXNativeTarget "Additional_Swift" */;
+			buildPhases = (
+				E298F45E1E95269D00365FBC /* Sources */,
+				E298F45F1E95269D00365FBC /* Frameworks */,
+				E298F4601E95269D00365FBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Additional_Swift;
+			productName = Additional_Swift;
+			productReference = E298F4621E95269D00365FBC /* Additional_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -175,6 +255,10 @@
 				ORGANIZATIONNAME = UniqueCe;
 				TargetAttributes = {
 					E298F40A1E9524A800365FBC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					E298F4611E95269D00365FBC = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -194,6 +278,7 @@
 			projectRoot = "";
 			targets = (
 				E298F40A1E9524A800365FBC /* Additional_ObjC */,
+				E298F4611E95269D00365FBC /* Additional_Swift */,
 			);
 		};
 /* End PBXProject section */
@@ -206,6 +291,16 @@
 				E298F41E1E9524A800365FBC /* LaunchScreen.storyboard in Resources */,
 				E298F41B1E9524A800365FBC /* Assets.xcassets in Resources */,
 				E298F4191E9524A800365FBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E298F4601E95269D00365FBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E298F46F1E95269D00365FBC /* LaunchScreen.storyboard in Resources */,
+				E298F46C1E95269D00365FBC /* Assets.xcassets in Resources */,
+				E298F46A1E95269D00365FBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +328,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E298F45E1E95269D00365FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E298F47F1E95272400365FBC /* UIBarButtonItem_Extension.swift in Sources */,
+				E298F4651E95269D00365FBC /* AppDelegate.swift in Sources */,
+				E298F4801E95272400365FBC /* UIButton_Extension.swift in Sources */,
+				E298F4861E95289E00365FBC /* ViewController.swift in Sources */,
+				E298F47E1E95272400365FBC /* UIAlertController_Extension.swift in Sources */,
+				E298F4831E95272400365FBC /* UIScreen_Extension.swift in Sources */,
+				E298F4811E95272400365FBC /* UIColor_Extension.swift in Sources */,
+				E298F4821E95272400365FBC /* UILabel_Extension.swift in Sources */,
+				E298F4841E95272400365FBC /* UIView_Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -248,6 +359,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				E298F41D1E9524A800365FBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E298F4681E95269D00365FBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E298F4691E95269D00365FBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E298F46D1E95269D00365FBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E298F46E1E95269D00365FBC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -365,6 +492,33 @@
 			};
 			name = Release;
 		};
+		E298F4711E95269D00365FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Additional_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LPC.Additional-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E298F4721E95269D00365FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Additional_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LPC.Additional-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -385,6 +539,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		E298F4731E95269D00365FBC /* Build configuration list for PBXNativeTarget "Additional_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E298F4711E95269D00365FBC /* Debug */,
+				E298F4721E95269D00365FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
