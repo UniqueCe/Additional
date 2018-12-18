@@ -10,27 +10,34 @@
 
 @interface UIView (LPC)
 
+
 #pragma mark - Frame
 //视图原点
-@property (nonatomic) CGPoint lpc_viewOrigin;
+@property (nonatomic) CGPoint viewOrigin;
 //视图尺寸
-@property (nonatomic) CGSize lpc_viewSize;
+@property (nonatomic) CGSize viewSize;
 
 #pragma mark - Frame Origin
 //x
-@property (nonatomic) CGFloat lpc_x;
+@property (nonatomic) CGFloat X;
 //y
-@property (nonatomic) CGFloat lpc_y;
+@property (nonatomic) CGFloat Y;
 
 #pragma mark - Frame Size
 //width
-@property (nonatomic) CGFloat lpc_width;
+@property (nonatomic) CGFloat Width;
 //height
-@property (nonatomic) CGFloat lpc_height;
+@property (nonatomic) CGFloat Height;
+
+@property (nonatomic) CGFloat maxX;
+
+@property (nonatomic) CGFloat maxY;
 
 /**
  返回屏幕截图
  */
-- (UIImage *)LPC_snapshotImage;
+- (UIImage *)snapshotImage;
+
+- (UIViewController *)GetViewController;
 
 @end

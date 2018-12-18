@@ -18,6 +18,8 @@
  @param color 字体颜色
  @return UILabel
  */
-+ (instancetype)LPC_labelWithText:(NSString *)text fontSize:(CGFloat)fontSize TextColor:(UIColor *)color;
++ (instancetype)LPC_labelWithText:(NSString *)text
+                         fontSize:(CGFloat)fontSize
+                        TextColor:(UIColor *)color;
 
 @end

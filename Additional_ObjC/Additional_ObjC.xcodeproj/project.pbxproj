@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FA0701421C8C9500045DD91 /* alertString.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0701321C8C9500045DD91 /* alertString.m */; };
+		5FA0701721C8CECD0045DD91 /* commonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0701521C8CECC0045DD91 /* commonTool.m */; };
+		5FA0701A21C8D43F0045DD91 /* menuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0701821C8D43F0045DD91 /* menuButton.m */; };
+		5FA0701D21C8D7D30045DD91 /* LabelAndImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0701C21C8D7D30045DD91 /* LabelAndImageButton.m */; };
+		5FA0702321C8D9470045DD91 /* NSDate+TimeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0702121C8D9470045DD91 /* NSDate+TimeCategory.m */; };
 		E298F4101E9524A800365FBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E298F40F1E9524A800365FBC /* main.m */; };
 		E298F4131E9524A800365FBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E298F4121E9524A800365FBC /* AppDelegate.m */; };
 		E298F4161E9524A800365FBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E298F4151E9524A800365FBC /* ViewController.m */; };
@@ -14,9 +19,7 @@
 		E298F41B1E9524A800365FBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E298F41A1E9524A800365FBC /* Assets.xcassets */; };
 		E298F41E1E9524A800365FBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E298F41C1E9524A800365FBC /* LaunchScreen.storyboard */; };
 		E298F43D1E95254000365FBC /* NSArray+LPC.m in Sources */ = {isa = PBXBuildFile; fileRef = E298F4281E95254000365FBC /* NSArray+LPC.m */; };
-		E298F43E1E95254000365FBC /* NSArray+test.m in Sources */ = {isa = PBXBuildFile; fileRef = E298F42A1E95254000365FBC /* NSArray+test.m */; };
 		E298F43F1E95254000365FBC /* NSAttributedString+LPC.m in Sources */ = {isa = PBXBuildFile; fileRef = E298F42C1E95254000365FBC /* NSAttributedString+LPC.m */; };
-		E298F4401E95254000365FBC /* NSObject+LPC.m in Sources */ = {isa = PBXBuildFile; fileRef = E298F42E1E95254000365FBC /* NSObject+LPC.m */; };
 		E298F4411E95254000365FBC /* UIAlertController+LPC_Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = E298F4301E95254000365FBC /* UIAlertController+LPC_Extend.m */; };
 		E298F4421E95254000365FBC /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E298F4321E95254000365FBC /* UIBarButtonItem+Extension.m */; };
 		E298F4431E95254000365FBC /* UIButton+LPC.m in Sources */ = {isa = PBXBuildFile; fileRef = E298F4341E95254000365FBC /* UIButton+LPC.m */; };
@@ -39,6 +42,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5FA0701221C8C9500045DD91 /* alertString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alertString.h; sourceTree = "<group>"; };
+		5FA0701321C8C9500045DD91 /* alertString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = alertString.m; sourceTree = "<group>"; };
+		5FA0701521C8CECC0045DD91 /* commonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = commonTool.m; sourceTree = "<group>"; };
+		5FA0701621C8CECC0045DD91 /* commonTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commonTool.h; sourceTree = "<group>"; };
+		5FA0701821C8D43F0045DD91 /* menuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = menuButton.m; sourceTree = "<group>"; };
+		5FA0701921C8D43F0045DD91 /* menuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = menuButton.h; sourceTree = "<group>"; };
+		5FA0701B21C8D7D30045DD91 /* LabelAndImageButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LabelAndImageButton.h; sourceTree = "<group>"; };
+		5FA0701C21C8D7D30045DD91 /* LabelAndImageButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelAndImageButton.m; sourceTree = "<group>"; };
+		5FA0702121C8D9470045DD91 /* NSDate+TimeCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TimeCategory.m"; sourceTree = "<group>"; };
+		5FA0702221C8D9470045DD91 /* NSDate+TimeCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TimeCategory.h"; sourceTree = "<group>"; };
 		E298F40B1E9524A800365FBC /* Additional_ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Additional_ObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E298F40F1E9524A800365FBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E298F4111E9524A800365FBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,12 +65,8 @@
 		E298F4261E95254000365FBC /* Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Addition.h; sourceTree = "<group>"; };
 		E298F4271E95254000365FBC /* NSArray+LPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+LPC.h"; sourceTree = "<group>"; };
 		E298F4281E95254000365FBC /* NSArray+LPC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LPC.m"; sourceTree = "<group>"; };
-		E298F4291E95254000365FBC /* NSArray+test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+test.h"; sourceTree = "<group>"; };
-		E298F42A1E95254000365FBC /* NSArray+test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+test.m"; sourceTree = "<group>"; };
 		E298F42B1E95254000365FBC /* NSAttributedString+LPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+LPC.h"; sourceTree = "<group>"; };
 		E298F42C1E95254000365FBC /* NSAttributedString+LPC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+LPC.m"; sourceTree = "<group>"; };
-		E298F42D1E95254000365FBC /* NSObject+LPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LPC.h"; sourceTree = "<group>"; };
-		E298F42E1E95254000365FBC /* NSObject+LPC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LPC.m"; sourceTree = "<group>"; };
 		E298F42F1E95254000365FBC /* UIAlertController+LPC_Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+LPC_Extend.h"; sourceTree = "<group>"; };
 		E298F4301E95254000365FBC /* UIAlertController+LPC_Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+LPC_Extend.m"; sourceTree = "<group>"; };
 		E298F4311E95254000365FBC /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
@@ -155,12 +164,8 @@
 				E298F4261E95254000365FBC /* Addition.h */,
 				E298F4271E95254000365FBC /* NSArray+LPC.h */,
 				E298F4281E95254000365FBC /* NSArray+LPC.m */,
-				E298F4291E95254000365FBC /* NSArray+test.h */,
-				E298F42A1E95254000365FBC /* NSArray+test.m */,
 				E298F42B1E95254000365FBC /* NSAttributedString+LPC.h */,
 				E298F42C1E95254000365FBC /* NSAttributedString+LPC.m */,
-				E298F42D1E95254000365FBC /* NSObject+LPC.h */,
-				E298F42E1E95254000365FBC /* NSObject+LPC.m */,
 				E298F42F1E95254000365FBC /* UIAlertController+LPC_Extend.h */,
 				E298F4301E95254000365FBC /* UIAlertController+LPC_Extend.m */,
 				E298F4311E95254000365FBC /* UIBarButtonItem+Extension.h */,
@@ -175,6 +180,16 @@
 				E298F43A1E95254000365FBC /* UIScreen+LPC.m */,
 				E298F43B1E95254000365FBC /* UIView+LPC.h */,
 				E298F43C1E95254000365FBC /* UIView+LPC.m */,
+				5FA0701221C8C9500045DD91 /* alertString.h */,
+				5FA0701321C8C9500045DD91 /* alertString.m */,
+				5FA0701621C8CECC0045DD91 /* commonTool.h */,
+				5FA0701521C8CECC0045DD91 /* commonTool.m */,
+				5FA0701921C8D43F0045DD91 /* menuButton.h */,
+				5FA0701821C8D43F0045DD91 /* menuButton.m */,
+				5FA0701B21C8D7D30045DD91 /* LabelAndImageButton.h */,
+				5FA0701C21C8D7D30045DD91 /* LabelAndImageButton.m */,
+				5FA0702221C8D9470045DD91 /* NSDate+TimeCategory.h */,
+				5FA0702121C8D9470045DD91 /* NSDate+TimeCategory.m */,
 			);
 			path = LPCAdditonal;
 			sourceTree = "<group>";
@@ -313,17 +328,20 @@
 			files = (
 				E298F4471E95254000365FBC /* UIView+LPC.m in Sources */,
 				E298F4161E9524A800365FBC /* ViewController.m in Sources */,
+				5FA0701D21C8D7D30045DD91 /* LabelAndImageButton.m in Sources */,
 				E298F4461E95254000365FBC /* UIScreen+LPC.m in Sources */,
 				E298F4441E95254000365FBC /* UIColor+LPC.m in Sources */,
-				E298F43E1E95254000365FBC /* NSArray+test.m in Sources */,
 				E298F4131E9524A800365FBC /* AppDelegate.m in Sources */,
 				E298F4451E95254000365FBC /* UILabel+LPC.m in Sources */,
 				E298F43D1E95254000365FBC /* NSArray+LPC.m in Sources */,
 				E298F4411E95254000365FBC /* UIAlertController+LPC_Extend.m in Sources */,
+				5FA0701421C8C9500045DD91 /* alertString.m in Sources */,
+				5FA0701A21C8D43F0045DD91 /* menuButton.m in Sources */,
 				E298F4431E95254000365FBC /* UIButton+LPC.m in Sources */,
-				E298F4401E95254000365FBC /* NSObject+LPC.m in Sources */,
 				E298F4421E95254000365FBC /* UIBarButtonItem+Extension.m in Sources */,
+				5FA0702321C8D9470045DD91 /* NSDate+TimeCategory.m in Sources */,
 				E298F4101E9524A800365FBC /* main.m in Sources */,
+				5FA0701721C8CECD0045DD91 /* commonTool.m in Sources */,
 				E298F43F1E95254000365FBC /* NSAttributedString+LPC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -547,6 +565,7 @@
 				E298F4721E95269D00365FBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -11,97 +11,125 @@
 @implementation UIView (LPC)
 
 #pragma mark - Frame
-
-- (CGPoint)lpc_viewOrigin {
+- (CGPoint)viewOrigin {
     
     return self.frame.origin;
 }
 
-- (void)setLpc_viewOrigin:(CGPoint)lpc_viewOrigin {
+- (void)setViewOrigin:(CGPoint)viewOrigin {
     
     CGRect newFrame = self.frame;
     
-    newFrame.origin = lpc_viewOrigin;
+    newFrame.origin = viewOrigin;
     
     self.frame = newFrame;
 }
 
-- (CGSize)lpc_viewSize {
+- (CGSize)viewSize {
     
     return self.frame.size;
 }
 
-- (void)setLpc_viewSize:(CGSize)lpc_viewSize {
+- (void)setViewSize:(CGSize)viewSize {
     
     CGRect newFrame = self.frame;
     
-    newFrame.size = lpc_viewSize;
+    newFrame.size = viewSize;
     
     self.frame = newFrame;
 }
 
 #pragma mark - Frame Origin
 
-- (CGFloat)lpc_x {
+- (CGFloat)X {
     
     return self.frame.origin.x;
 }
 
-- (void)setLpc_x:(CGFloat)lpc_x {
+- (void)setX:(CGFloat)X {
     
     CGRect newFrame = self.frame;
     
-    newFrame.origin.x = lpc_x;
+    newFrame.origin.x = X;
     
     self.frame = newFrame;
 }
 
-- (CGFloat)lpc_y {
+- (CGFloat)Y {
     
     return self.frame.origin.y;
 }
 
-- (void)setLpc_y:(CGFloat)lpc_y {
+- (void)setY:(CGFloat)Y {
     
     CGRect newFrame = self.frame;
     
-    newFrame.origin.y = lpc_y;
+    newFrame.origin.y = Y;
     
     self.frame = newFrame;
 }
 
 #pragma mark - Frame Size
 
-- (CGFloat)lpc_width {
+- (CGFloat)Width {
     
     return self.frame.size.width;
 }
 
-- (void)setLpc_width:(CGFloat)lpc_width {
+- (void)setWidth:(CGFloat)Width {
     
     CGRect newFrame = self.frame;
     
-    newFrame.size.width = lpc_width;
+    newFrame.size.width = Width;
     
     self.frame = newFrame;
 }
 
-- (CGFloat)lpc_height {
+- (CGFloat)Height {
     
     return self.frame.size.height;
 }
 
-- (void)setLpc_height:(CGFloat)lpc_height {
+- (void)setHeight:(CGFloat)Height {
     
     CGRect newFrame = self.frame;
     
-    newFrame.size.height = lpc_height;
+    newFrame.size.height = Height;
     
     self.frame = newFrame;
 }
 
+- (CGFloat)maxX {
+    
+    return self.frame.origin.x + self.frame.size.width;
+}
+
+- (void)setMaxX:(CGFloat)right {
+    
+    CGRect frame = self.frame;
+    
+    frame.origin.x = right - frame.size.width;
+    
+    self.frame = frame;
+}
+
+- (CGFloat)maxY {
+    
+    return self.frame.origin.y + self.frame.size.height;
+}
+
+- (void)setMaxY:(CGFloat)bottom {
+    
+    CGRect frame = self.frame;
+    
+    frame.origin.y = bottom - frame.size.height;
+    
+    self.frame = frame;
+}
+
+
 #pragma mark - 返回屏幕截图
-- (UIImage *)LPC_snapshotImage {
+- (UIImage *)snapshotImage {
     
     UIGraphicsBeginImageContextWithOptions(self.bounds.size, YES, 0);
     
@@ -112,7 +140,20 @@
     UIGraphicsEndImageContext();
     
     return result;
-
+    
 }
+
+- (UIViewController *)GetViewController {
+    
+    for (UIView* next = [self superview]; next; next = next.superview) {
+        UIResponder *nextResponder = [next nextResponder];
+        
+        if ([nextResponder isKindOfClass:[UIViewController class]]) {
+            return (UIViewController *)nextResponder;
+        }
+    }
+    return nil;
+}
+
 
 @end

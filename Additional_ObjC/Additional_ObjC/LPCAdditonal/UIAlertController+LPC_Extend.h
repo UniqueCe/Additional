@@ -15,10 +15,16 @@
 */
 
 //MARK:创建AlertController
-+ (instancetype)alertControllerWithTitle:(NSString *)title message:(NSString *)message andActionTitle:(NSString *)actionTitle handler:(void(^)(UIAlertAction *action))handler;
++ (instancetype)alertControllerWithTitle:(NSString *)title
+                                 message:(NSString *)message
+                          andActionTitle:(NSString *)actionTitle
+                                 handler:(void(^)(UIAlertAction *action))handler;
 
 //MARK:创建AlertSheetController
-+ (instancetype)alertSheetControllerWithTitle:(NSString *)title message:(NSString *)message andActionTitle:(NSString *)actionTitle handler:(void(^)(UIAlertAction *action))handler;
++ (instancetype)alertSheetControllerWithTitle:(NSString *)title
+                                      message:(NSString *)message
+                               andActionTitle:(NSString *)actionTitle
+                                      handler:(void(^)(UIAlertAction *action))handler;
 
 
 @end

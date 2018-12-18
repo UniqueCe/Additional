@@ -17,8 +17,16 @@
  @param alpha 透明度
  @return 颜色
  */
-+ (instancetype)LPC_colorWithHex:(int32_t)hex alpha:(CGFloat)alpha;
++ (instancetype)LPC_colorWithHex:(int32_t)hex
+                           alpha:(CGFloat)alpha;
 
+/**
+ 使用 16 进制数字创建颜色，例如 0xFF0000 创建颜色
+ 
+ @param hex 16进制无符号32位整数
+ @return 颜色
+ */
++ (instancetype)LPC_colorWithHex:(int32_t)hex;
 
 /**
  使用 R/G/B 数值创建颜色
@@ -29,7 +37,10 @@
  @param alpha 透明度
  @return 颜色
  */
-+ (instancetype)LPC_colorWithR:(int)red G:(int)green B:(int)blue alpha:(CGFloat)alpha;
++ (instancetype)LPC_colorWithR:(int)red
+                             G:(int)green
+                             B:(int)blue
+                         alpha:(CGFloat)alpha;
 
 /**
  生成随机颜色
@@ -37,5 +48,13 @@
  @return 随机颜色
  */
 + (instancetype)LPC_randomColor;
+
+/**
+  字符串颜色 例#333333
+
+ @param hexStr 字符串
+ @return UIColor
+ */
++ (UIColor *)colorWithHexString:(NSString *)hexStr;
 
 @end

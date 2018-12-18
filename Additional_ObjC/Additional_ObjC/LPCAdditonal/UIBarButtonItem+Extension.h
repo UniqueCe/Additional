@@ -18,7 +18,9 @@
  @param action 方法
  @return 返回ButtonItem
  */
-+ (UIBarButtonItem *)setBarButtonTitle:(NSString *)title andTarget:(id)target  andAction:(SEL)action;
++ (UIBarButtonItem *)setBarButtonTitle:(NSString *)title
+                             andTarget:(id)target
+                             andAction:(SEL)action;
 
 /**
  UIBarButtonItem的Image
@@ -28,6 +30,8 @@
  @param action 方法
  @return 返回UIBarButtonItem
  */
-- (UIBarButtonItem *)setupUIBarButtonWithImage:(UIImage *)image target:(id)target action:(SEL)action;
+- (UIBarButtonItem *)setupUIBarButtonWithImage:(UIImage *)image
+                                        target:(id)target
+                                        action:(SEL)action;
 
 @end
