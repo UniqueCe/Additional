@@ -77,6 +77,7 @@
 		5FA0703D21C8F8290045DD91 /* AlamofireNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireNetworkManager.swift; sourceTree = "<group>"; };
 		5FA0703F21C8F9880045DD91 /* LPCNetworkTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPCNetworkTools.h; sourceTree = "<group>"; };
 		5FA0704021C8F9880045DD91 /* LPCNetworkTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPCNetworkTools.m; sourceTree = "<group>"; };
+		5FA0704221C8FC040045DD91 /* CommonHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonHeader.h; sourceTree = "<group>"; };
 		E298F40B1E9524A800365FBC /* Additional_ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Additional_ObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E298F40F1E9524A800365FBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E298F4111E9524A800365FBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -229,6 +230,7 @@
 				5FA0702121C8D9470045DD91 /* NSDate+TimeCategory.m */,
 				5FA0703F21C8F9880045DD91 /* LPCNetworkTools.h */,
 				5FA0704021C8F9880045DD91 /* LPCNetworkTools.m */,
+				5FA0704221C8FC040045DD91 /* CommonHeader.h */,
 			);
 			path = LPCAdditonal;
 			sourceTree = "<group>";
