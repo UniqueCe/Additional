@@ -13,11 +13,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.setupUILabel()
-        
-        self.setupColor()
-        
-        self.setupButton()
+//        self.setupUILabel()
+//
+//        self.setupColor()
+//
+//        self.setupButton()
         
     }
 
@@ -132,14 +132,7 @@ class ViewController: UIViewController {
         btn23.frame = CGRect(x: 270, y: 250, width: 50, height: 50)
         btn23.addTarget(self, action: #selector(gotoAction(_:)), for: .touchUpInside)
         view.addSubview(btn23)
-        
-        
-        let edgeTitle = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
-        let btn234 = UIButton.buttonWithImage_Text(title: "我叫阳阳", selecteTitle: "阳阳东", image: "喵猫", selecteImage: "猴怪", titleColor: UIColor.red, titleSelecteColor: UIColor.brown, titleEdgeInsets: edgeTitle, imageEdgeInsets: UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0))
-        btn234.frame = CGRect(x: 50, y: 400, width: 300, height: 100)
-        btn234.backgroundColor = UIColor.black
-        btn234.addTarget(self, action: #selector(gotoAction(_:)), for: .touchUpInside)
-        view.addSubview(btn234)
+
         
     }
     
@@ -149,7 +142,17 @@ class ViewController: UIViewController {
     }
     
     
-
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
+        timeCountdown(timeCountNum: 5) { (dis, count) in
+            print(count)
+        }
+        
+        let si:CGFloat = getLabelHeight(labelStr: "难啊", fontSize: 15, width: 200)
+        let si2:CGFloat = getLabelWidth(labelStr: "难啊", fontSize: 15, height: 200)
+        print(si)
+        print(si2)
+    }
     
     
     

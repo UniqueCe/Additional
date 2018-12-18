@@ -12,6 +12,17 @@
 		5FA0701A21C8D43F0045DD91 /* menuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0701821C8D43F0045DD91 /* menuButton.m */; };
 		5FA0701D21C8D7D30045DD91 /* LabelAndImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0701C21C8D7D30045DD91 /* LabelAndImageButton.m */; };
 		5FA0702321C8D9470045DD91 /* NSDate+TimeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0702121C8D9470045DD91 /* NSDate+TimeCategory.m */; };
+		5FA0702521C8E5810045DD91 /* CommonTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0702421C8E5810045DD91 /* CommonTools.swift */; };
+		5FA0702721C8EB9D0045DD91 /* FPSLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0702621C8EB9D0045DD91 /* FPSLabel.swift */; };
+		5FA0702921C8EBA50045DD91 /* imagePickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0702821C8EBA50045DD91 /* imagePickerManager.swift */; };
+		5FA0702F21C8ECE40045DD91 /* TabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0702E21C8ECE40045DD91 /* TabBarButton.swift */; };
+		5FA0703121C8F7040045DD91 /* textAndImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0703021C8F7030045DD91 /* textAndImageButton.swift */; };
+		5FA0703821C8F7E90045DD91 /* FirstModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0703321C8F7E90045DD91 /* FirstModel.swift */; };
+		5FA0703921C8F7E90045DD91 /* toolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0703421C8F7E90045DD91 /* toolbarView.swift */; };
+		5FA0703A21C8F7E90045DD91 /* pickerAreaerBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0703521C8F7E90045DD91 /* pickerAreaerBtnView.swift */; };
+		5FA0703B21C8F7E90045DD91 /* PickerSinglerBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0703621C8F7E90045DD91 /* PickerSinglerBtnView.swift */; };
+		5FA0703C21C8F7E90045DD91 /* area_New_FuWuQi.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5FA0703721C8F7E90045DD91 /* area_New_FuWuQi.plist */; };
+		5FA0703E21C8F8290045DD91 /* AlamofireNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0703D21C8F8290045DD91 /* AlamofireNetworkManager.swift */; };
 		E298F4101E9524A800365FBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E298F40F1E9524A800365FBC /* main.m */; };
 		E298F4131E9524A800365FBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E298F4121E9524A800365FBC /* AppDelegate.m */; };
 		E298F4161E9524A800365FBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E298F4151E9524A800365FBC /* ViewController.m */; };
@@ -52,6 +63,17 @@
 		5FA0701C21C8D7D30045DD91 /* LabelAndImageButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelAndImageButton.m; sourceTree = "<group>"; };
 		5FA0702121C8D9470045DD91 /* NSDate+TimeCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TimeCategory.m"; sourceTree = "<group>"; };
 		5FA0702221C8D9470045DD91 /* NSDate+TimeCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TimeCategory.h"; sourceTree = "<group>"; };
+		5FA0702421C8E5810045DD91 /* CommonTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonTools.swift; sourceTree = "<group>"; };
+		5FA0702621C8EB9D0045DD91 /* FPSLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPSLabel.swift; sourceTree = "<group>"; };
+		5FA0702821C8EBA50045DD91 /* imagePickerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imagePickerManager.swift; sourceTree = "<group>"; };
+		5FA0702E21C8ECE40045DD91 /* TabBarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
+		5FA0703021C8F7030045DD91 /* textAndImageButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = textAndImageButton.swift; sourceTree = "<group>"; };
+		5FA0703321C8F7E90045DD91 /* FirstModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstModel.swift; sourceTree = "<group>"; };
+		5FA0703421C8F7E90045DD91 /* toolbarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = toolbarView.swift; sourceTree = "<group>"; };
+		5FA0703521C8F7E90045DD91 /* pickerAreaerBtnView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pickerAreaerBtnView.swift; sourceTree = "<group>"; };
+		5FA0703621C8F7E90045DD91 /* PickerSinglerBtnView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerSinglerBtnView.swift; sourceTree = "<group>"; };
+		5FA0703721C8F7E90045DD91 /* area_New_FuWuQi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area_New_FuWuQi.plist; sourceTree = "<group>"; };
+		5FA0703D21C8F8290045DD91 /* AlamofireNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireNetworkManager.swift; sourceTree = "<group>"; };
 		E298F40B1E9524A800365FBC /* Additional_ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Additional_ObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E298F40F1E9524A800365FBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E298F4111E9524A800365FBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -115,6 +137,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5FA0703221C8F7E90045DD91 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				5FA0703321C8F7E90045DD91 /* FirstModel.swift */,
+				5FA0703421C8F7E90045DD91 /* toolbarView.swift */,
+				5FA0703521C8F7E90045DD91 /* pickerAreaerBtnView.swift */,
+				5FA0703621C8F7E90045DD91 /* PickerSinglerBtnView.swift */,
+				5FA0703721C8F7E90045DD91 /* area_New_FuWuQi.plist */,
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
 		E298F4021E9524A800365FBC = {
 			isa = PBXGroup;
 			children = (
@@ -218,6 +252,13 @@
 				E298F47B1E95272400365FBC /* UILabel_Extension.swift */,
 				E298F47C1E95272400365FBC /* UIScreen_Extension.swift */,
 				E298F47D1E95272400365FBC /* UIView_Extension.swift */,
+				5FA0702421C8E5810045DD91 /* CommonTools.swift */,
+				5FA0702621C8EB9D0045DD91 /* FPSLabel.swift */,
+				5FA0702821C8EBA50045DD91 /* imagePickerManager.swift */,
+				5FA0702E21C8ECE40045DD91 /* TabBarButton.swift */,
+				5FA0703021C8F7030045DD91 /* textAndImageButton.swift */,
+				5FA0703D21C8F8290045DD91 /* AlamofireNetworkManager.swift */,
+				5FA0703221C8F7E90045DD91 /* PickerView */,
 			);
 			path = LPC_SwiftAdditonal;
 			sourceTree = "<group>";
@@ -314,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E298F46F1E95269D00365FBC /* LaunchScreen.storyboard in Resources */,
+				5FA0703C21C8F7E90045DD91 /* area_New_FuWuQi.plist in Resources */,
 				E298F46C1E95269D00365FBC /* Assets.xcassets in Resources */,
 				E298F46A1E95269D00365FBC /* Main.storyboard in Resources */,
 			);
@@ -351,13 +393,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				E298F47F1E95272400365FBC /* UIBarButtonItem_Extension.swift in Sources */,
+				5FA0703821C8F7E90045DD91 /* FirstModel.swift in Sources */,
 				E298F4651E95269D00365FBC /* AppDelegate.swift in Sources */,
 				E298F4801E95272400365FBC /* UIButton_Extension.swift in Sources */,
+				5FA0702F21C8ECE40045DD91 /* TabBarButton.swift in Sources */,
+				5FA0703A21C8F7E90045DD91 /* pickerAreaerBtnView.swift in Sources */,
+				5FA0702721C8EB9D0045DD91 /* FPSLabel.swift in Sources */,
 				E298F4861E95289E00365FBC /* ViewController.swift in Sources */,
 				E298F47E1E95272400365FBC /* UIAlertController_Extension.swift in Sources */,
 				E298F4831E95272400365FBC /* UIScreen_Extension.swift in Sources */,
+				5FA0702921C8EBA50045DD91 /* imagePickerManager.swift in Sources */,
+				5FA0703921C8F7E90045DD91 /* toolbarView.swift in Sources */,
+				5FA0703E21C8F8290045DD91 /* AlamofireNetworkManager.swift in Sources */,
+				5FA0702521C8E5810045DD91 /* CommonTools.swift in Sources */,
 				E298F4811E95272400365FBC /* UIColor_Extension.swift in Sources */,
 				E298F4821E95272400365FBC /* UILabel_Extension.swift in Sources */,
+				5FA0703121C8F7040045DD91 /* textAndImageButton.swift in Sources */,
+				5FA0703B21C8F7E90045DD91 /* PickerSinglerBtnView.swift in Sources */,
 				E298F4841E95272400365FBC /* UIView_Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

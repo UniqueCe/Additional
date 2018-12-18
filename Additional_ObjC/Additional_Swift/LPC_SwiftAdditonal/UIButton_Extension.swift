@@ -69,18 +69,6 @@ extension  UIButton {
         
         return btn
     }
-    
-    //MARK:btn图文混排
-    class func buttonWithImage_Text(title: String? ,selecteTitle: String? ,image: String? ,selecteImage: String? ,titleColor: UIColor? ,titleSelecteColor: UIColor? ,titleEdgeInsets: UIEdgeInsets ,imageEdgeInsets: UIEdgeInsets) -> UIButton {
-
-        let btn = UIButton.buttonWithTitle(title: title, selecteTitle: selecteTitle, image: image, selecteImage: selecteImage, titleColor: titleColor, titleSelecteColor: titleSelecteColor, backgroundImage: nil, backgroundSelecteImage: nil)
-        
-        btn.titleEdgeInsets = titleEdgeInsets
-        btn.imageEdgeInsets = imageEdgeInsets
-        
-        return btn
-    }
-    
 }
 
 
