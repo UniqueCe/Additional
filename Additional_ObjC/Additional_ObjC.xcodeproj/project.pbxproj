@@ -23,6 +23,7 @@
 		5FA0703B21C8F7E90045DD91 /* PickerSinglerBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0703621C8F7E90045DD91 /* PickerSinglerBtnView.swift */; };
 		5FA0703C21C8F7E90045DD91 /* area_New_FuWuQi.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5FA0703721C8F7E90045DD91 /* area_New_FuWuQi.plist */; };
 		5FA0703E21C8F8290045DD91 /* AlamofireNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0703D21C8F8290045DD91 /* AlamofireNetworkManager.swift */; };
+		5FA0704121C8F9880045DD91 /* LPCNetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0704021C8F9880045DD91 /* LPCNetworkTools.m */; };
 		E298F4101E9524A800365FBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E298F40F1E9524A800365FBC /* main.m */; };
 		E298F4131E9524A800365FBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E298F4121E9524A800365FBC /* AppDelegate.m */; };
 		E298F4161E9524A800365FBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E298F4151E9524A800365FBC /* ViewController.m */; };
@@ -74,6 +75,8 @@
 		5FA0703621C8F7E90045DD91 /* PickerSinglerBtnView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerSinglerBtnView.swift; sourceTree = "<group>"; };
 		5FA0703721C8F7E90045DD91 /* area_New_FuWuQi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area_New_FuWuQi.plist; sourceTree = "<group>"; };
 		5FA0703D21C8F8290045DD91 /* AlamofireNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireNetworkManager.swift; sourceTree = "<group>"; };
+		5FA0703F21C8F9880045DD91 /* LPCNetworkTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPCNetworkTools.h; sourceTree = "<group>"; };
+		5FA0704021C8F9880045DD91 /* LPCNetworkTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPCNetworkTools.m; sourceTree = "<group>"; };
 		E298F40B1E9524A800365FBC /* Additional_ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Additional_ObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E298F40F1E9524A800365FBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E298F4111E9524A800365FBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -224,6 +227,8 @@
 				5FA0701C21C8D7D30045DD91 /* LabelAndImageButton.m */,
 				5FA0702221C8D9470045DD91 /* NSDate+TimeCategory.h */,
 				5FA0702121C8D9470045DD91 /* NSDate+TimeCategory.m */,
+				5FA0703F21C8F9880045DD91 /* LPCNetworkTools.h */,
+				5FA0704021C8F9880045DD91 /* LPCNetworkTools.m */,
 			);
 			path = LPCAdditonal;
 			sourceTree = "<group>";
@@ -378,6 +383,7 @@
 				E298F43D1E95254000365FBC /* NSArray+LPC.m in Sources */,
 				E298F4411E95254000365FBC /* UIAlertController+LPC_Extend.m in Sources */,
 				5FA0701421C8C9500045DD91 /* alertString.m in Sources */,
+				5FA0704121C8F9880045DD91 /* LPCNetworkTools.m in Sources */,
 				5FA0701A21C8D43F0045DD91 /* menuButton.m in Sources */,
 				E298F4431E95254000365FBC /* UIButton+LPC.m in Sources */,
 				E298F4421E95254000365FBC /* UIBarButtonItem+Extension.m in Sources */,
