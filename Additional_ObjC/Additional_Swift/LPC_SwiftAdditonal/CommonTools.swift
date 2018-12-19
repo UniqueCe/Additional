@@ -294,14 +294,30 @@ func getCurrentTime() -> String {
     return dformatter.string(from: now)
 }
 
+/// 多种颜色渐变View
+///
+/// - Parameters:
+///   - colors: 渐变颜色数组（(__bridge id) 桥接    .CGColor 类型）
+///   - locations: 数值渐变位置
+///   - frame: frame
+///   - supView: 需要渐变的View
+func drawGradientLayerColor(colors: Array<Any>, locations: Array<NSNumber>, frame: CGRect, supView: UIView) {
+    
+    let gradientLayer = CAGradientLayer()
+    gradientLayer.colors = colors
+    gradientLayer.locations = locations
+    gradientLayer.startPoint = CGPoint(x: 0, y: 0)
+    gradientLayer.endPoint = CGPoint(x: 1.0, y: 0)
+    gradientLayer.frame = frame
+    supView.layer.addSublayer(gradientLayer)
+}
 
-
-/// 延时
+/// GCD 延时
 ///
 /// - Parameters:
 ///   - delay: 延时时间
 ///   - closure: 延时回调
-func delay(_ delay:Double, closure:@escaping ()->()) {
+func delay_After(_ delay:Double, closure:@escaping ()->()) {
     DispatchQueue.main.asyncAfter(
         deadline: DispatchTime.now() + Double(Int64(delay * Double(NSEC_PER_SEC))) / Double(NSEC_PER_SEC), execute: closure)
 }
